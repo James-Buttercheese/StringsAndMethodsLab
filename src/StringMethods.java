@@ -76,6 +76,7 @@ public class StringMethods {
 	public static void camelCase (String phrase) {
 	int length = phrase.length();
 	int i = 0;
+	phrase = phrase.toLowerCase();
 	String phrase2 = "";
 	
 	for (i=0 ; i < length ; i++) {
